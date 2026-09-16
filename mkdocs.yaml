@@ -1,0 +1,80 @@
+site_name: AutoHub Docs
+site_description: Документация системы СТО «Авто-Хаб»
+site_url: https://IggyKuz.github.io/AutoHub-Docs/
+repo_name: IggyKuz/AutoHub-Docs
+repo_url: https://github.com/IggyKuz/AutoHub-Docs
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets:
+      auto_append:
+        - docs/abbreviations.md
+
+plugins:
+  - search:
+      lang: ru
+  - glightbox
+
+nav:
+  - Главная: index.md
+  - О проекте:
+      - about/index.md
+      - about/goals.md
+      - about/scope.md
+  - Бизнес:
+      - business/index.md
+      - business/processes.md
+      - business/roles.md
+  - Требования:
+      - requirements/index.md
+      - requirements/functional.md
+      - requirements/non-functional.md
+  - Архитектура:
+      - architecture/index.md
+      - architecture/components.md
+      - architecture/integrations.md
+  - API:
+      - api/index.md
+  - UI/UX:
+      - uiux/index.md
+  - Задачи:
+      - tasks/index.md
+      - tasks/example-task.md
