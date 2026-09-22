@@ -1,63 +1,63 @@
 site_name: AutoHub — Документация ИС СТО
 site_description: Документация информационной системы автомастерских и СТО
 site_author: IggyKuz
+site_url: https://iggykuz.github.io/AutoHub-Docs/
 
 theme:
   name: material
   language: ru
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: orange
-      accent: orange
-      toggle:
-        icon: material/brightness-7
-        name: Переключить на тёмную тему
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: orange
-      accent: orange
-      toggle:
-        icon: material/brightness-4
-        name: Переключить на светлую тему
+    primary: indigo
+    accent: indigo
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - tables
-  - attr_list
+    - navigation.tabs          # Верхние вкладки (1. Главная, 2. Документация, 3. Задачи)
+    - navigation.sections      # Группировка в боковом меню
+    - navigation.expand        # Авто-раскрытие меню
+    - navigation.top           # Кнопка наверх
 
 nav:
-  - Главная: index.md
-  - О проекте:
-      - Главная о проекте: about/index.md
-      - Цели и задачи: about/goals.md
-      - Границы проекта: about/scope.md
-  - Бизнес-логика:
-      - Главная раздела: business/index.md
-      - Роли и пользователи: business/roles.md
-      - Бизнес-процессы: business/processes.md
-  - Требования:
-      - Главная требований: requirements/index.md
-      - Функциональные требования: requirements/functional.md
-      - Нефункциональные требования: requirements/non-functional.md
-  - Архитектура:
-      - Обзор архитектуры: architecture/index.md
-      - Компоненты системы: architecture/components.md
-      - Интеграции: architecture/integrations.md
+  - 'Главная': index.md
+  - 'Документация':
+      - '1. Глоссарий': glossary.md
+      - '2. Общие сведения':
+          - '2.1. Исходные данные': general/input-data.md
+          - '2.2. Возможности бизнеса': general/business-opportunities.md
+      - '3. Назначение и цели':
+          - '3.1. Назначение': goals/purpose.md
+          - '3.2. Бизнес-цели': goals/business-goals.md
+          - '3.3. Критерии успеха': goals/success-criteria.md
+      - '4. Характеристики объекта автоматизации':
+          - '4.1. Предмет разработки': automation/scope.md
+          - '4.2. Сведения о пользователях': automation/users.md
+          - '4.3. Сведения о заинтересованных лицах': automation/stakeholders.md
+          - '4.4. Ограничения проекта': automation/constraints.md
+      - '5. Описание бизнес-процессов':
+          - '5.1. Регистрация клиента на СТО': processes/client-registration.md
+          - '5.2. Заказ недостающей запчасти': processes/parts-ordering.md
+      - '6. Требования к системе':
+          - '6.1. Требования к системе в целом':
+              - '6.1.1. Производительность': requirements/system/performance.md
+              - '6.1.2. Безопасность': requirements/system/security.md
+              - '6.1.3. Масштабируемость': requirements/system/scalability.md
+              - '6.1.4. Надежность': requirements/system/reliability.md
+              - '6.1.5. Совместимость': requirements/system/compatibility.md
+              - '6.1.6. Доступность': requirements/system/availability.md
+              - '6.1.7. Особенности хранения данных': requirements/system/data-storage.md
+              - '6.1.8. Поддерживаемость': requirements/system/maintainability.md
+          - '6.2. Требования к функциям':
+              - '6.2.1. UseCase диаграмма': requirements/functional/usecase-diagram.md
+              - '6.2.2. Описание UseCase (MVP)': requirements/functional/usecase-scenarios.md
+      - '7. Информационная модель':
+          - '7.1. Модель предметной области': domain-model/domain.md
+          - '7.2. Модель данных': domain-model/data.md
+      - '8. Компонентная архитектура':
+          - '8.1. Обоснование выбора архитектуры': architecture/style-justification.md
+      - '9. Пользовательский интерфейс':
+          - '9.1. Вайрфреймы': ui/wireframes.md
+          - '9.2. Прототип приложения': ui/prototype.md
+      - '10. API приложения': api/index.md
+  - 'Задачи':
+      - 'Задача 1': tasks/task-1.md
   - API:
       - Описание API: api/index.md
   - Сокращения: abbreviations.md
