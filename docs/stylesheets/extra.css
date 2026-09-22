@@ -7,3 +7,17 @@
 .md-tabs {
   background: linear-gradient(135deg, #2b2e38 0%, #e6673d 100%) !important;
 }
+
+/* Темный оранжево-серый блок под заголовок Главной страницы */
+.md-content .hero-box {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%);
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.md-content .hero-box h1 {
+  color: #ffffff !important;
+  margin-top: 0;
+}
