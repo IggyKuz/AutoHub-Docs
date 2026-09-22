@@ -7,14 +7,15 @@ theme:
   name: material
   language: ru
   palette:
-    primary: indigo
-    accent: indigo
+    primary: deep orange
+    accent: deep orange
   features:
     - navigation.tabs          # Верхние вкладки (1. Главная, 2. Документация, 3. Задачи)
     - navigation.sections      # Группировка в боковом меню
     - navigation.expand        # Авто-раскрытие меню
     - navigation.top           # Кнопка наверх
 
+nav:
 nav:
   - 'Главная': index.md
   - 'Документация':
@@ -58,6 +59,3 @@ nav:
       - '10. API приложения': api/index.md
   - 'Задачи':
       - 'Задача 1': tasks/task-1.md
-  - API:
-      - Описание API: api/index.md
-  - Сокращения: abbreviations.md
