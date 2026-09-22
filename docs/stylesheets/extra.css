@@ -1,0 +1,9 @@
+/* Оранжево-серый градиент для верхней шапки */
+.md-header {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%) !important;
+}
+
+/* Градиент для панели вкладок (Главная, Документация, Задачи) */
+.md-tabs {
+  background: linear-gradient(135deg, #2b2e38 0%, #e6673d 100%) !important;
+}

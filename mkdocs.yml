@@ -6,14 +6,38 @@ site_url: https://iggykuz.github.io/AutoHub-Docs/
 theme:
   name: material
   language: ru
-  palette:
-    primary: orange
-    accent: orange
+    
   features:
     - navigation.tabs          # Верхние вкладки (1. Главная, 2. Документация, 3. Задачи)
     - navigation.sections      # Группировка в боковом меню
-    - navigation.expand        # Авто-раскрытие меню
+    #- navigation.expand        # Авто-раскрытие меню
     - navigation.top           # Кнопка наверх
+    - navigation.footer        # ← Нижняя панель переходов «Назад / Вперед»
+
+# Настройка Светлой и Тёмной темы + иконки
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+
+# Подключаем кастомный CSS для градиента
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+
 
 nav:
 nav:
