@@ -7,8 +7,8 @@ theme:
   name: material
   language: ru
   palette:
-    primary: deep orange
-    accent: deep orange
+    primary: orange
+    accent: orange
   features:
     - navigation.tabs          # Верхние вкладки (1. Главная, 2. Документация, 3. Задачи)
     - navigation.sections      # Группировка в боковом меню
