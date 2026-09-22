@@ -42,3 +42,22 @@ markdown_extensions:
 
 nav:
   - Главная: index.md
+  - О проекте:
+      - Главная о проекте: about/index.md
+      - Цели и задачи: about/goals.md
+      - Границы проекта: about/scope.md
+  - Бизнес-логика:
+      - Главная раздела: business/index.md
+      - Роли и пользователи: business/roles.md
+      - Бизнес-процессы: business/processes.md
+  - Требования:
+      - Главная требований: requirements/index.md
+      - Функциональные требования: requirements/functional.md
+      - Нефункциональные требования: requirements/non-functional.md
+  - Архитектура:
+      - Обзор архитектуры: architecture/index.md
+      - Компоненты системы: architecture/components.md
+      - Интеграции: architecture/integrations.md
+  - API:
+      - Описание API: api/index.md
+  - Сокращения: abbreviations.md
