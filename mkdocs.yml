@@ -1,8 +1,6 @@
-site_name: AutoHub Docs
-site_description: Документация системы СТО «Авто-Хаб»
-site_url: https://IggyKuz.github.io/AutoHub-Docs/
-repo_name: IggyKuz/AutoHub-Docs
-repo_url: https://github.com/IggyKuz/AutoHub-Docs
+site_name: AutoHub — Документация ИС СТО
+site_description: Документация информационной системы автомастерских и СТО "АвтоХаб"
+site_author: IggyKuz
 
 theme:
   name: material
@@ -10,71 +8,49 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Переключить на тёмную тему
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Переключить на светлую тему
   features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.top
-    - navigation.footer
     - navigation.tabs
-    - navigation.indexes
-    - toc.follow
-    - search.highlight
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
     - search.suggest
+    - search.highlight
     - content.code.copy
 
 markdown_extensions:
   - admonition
-  - attr_list
-  - md_in_html
-  - tables
-  - toc:
-      permalink: true
-      toc_depth: 3
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.snippets:
-      auto_append:
-        - docs/abbreviations.md
-
-plugins:
-  - search:
-      lang: ru
-  - glightbox
+  - tables
+  - attr_list
 
 nav:
   - Главная: index.md
-  - О проекте:
-      - about/index.md
-      - about/goals.md
-      - about/scope.md
-  - Бизнес:
-      - business/index.md
-      - business/processes.md
-      - business/roles.md
-  - Требования:
-      - requirements/index.md
-      - requirements/functional.md
-      - requirements/non-functional.md
-  - Архитектура:
-      - architecture/index.md
-      - architecture/components.md
-      - architecture/integrations.md
-  - API:
-      - api/index.md
-  - UI/UX:
-      - uiux/index.md
-  - Задачи:
-      - tasks/index.md
-      - tasks/example-task.md
+  - 1. Общее описание:
+      - О проекте и бизнес-контекст: overview/business-case.md
+      - Глоссарий и термины: overview/glossary.md
+  - 2. Требования к системе:
+      - Бизнес-требования (BRD): requirements/business-req.md
+      - Пользовательские сценарии (Use Cases): requirements/use-cases.md
+  - 3. Проектирование процессов:
+      - Процесс приемки и осмотра (BPMN): processes/reception.md
+      - Формирование заказа-наряда: processes/work-order.md
+  - 4. Архитектура и Данные:
+      - Модель данных (ER-диаграмма): architecture/data-model.md
+      - Спецификация API (REST): architecture/api-spec.md
