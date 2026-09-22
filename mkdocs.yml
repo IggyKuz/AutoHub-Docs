@@ -1,5 +1,5 @@
 site_name: AutoHub — Документация ИС СТО
-site_description: Документация информационной системы автомастерских и СТО "АвтоХаб"
+site_description: Документация информационной системы автомастерских и СТО
 site_author: IggyKuz
 
 theme:
@@ -42,15 +42,3 @@ markdown_extensions:
 
 nav:
   - Главная: index.md
-  - 1. Общее описание:
-      - О проекте и бизнес-контекст: overview/business-case.md
-      - Глоссарий и термины: overview/glossary.md
-  - 2. Требования к системе:
-      - Бизнес-требования (BRD): requirements/business-req.md
-      - Пользовательские сценарии (Use Cases): requirements/use-cases.md
-  - 3. Проектирование процессов:
-      - Процесс приемки и осмотра (BPMN): processes/reception.md
-      - Формирование заказа-наряда: processes/work-order.md
-  - 4. Архитектура и Данные:
-      - Модель данных (ER-диаграмма): architecture/data-model.md
-      - Спецификация API (REST): architecture/api-spec.md
