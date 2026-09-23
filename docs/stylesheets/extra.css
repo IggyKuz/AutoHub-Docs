@@ -25,7 +25,13 @@
   border-radius: 8px;
 }
 
-
+/* 3. Гарантированный сброс фона для ВСЕХ остальных страниц (где есть боковое меню) */
+body:not(:has(.md-sidebar--primary[hidden])) .md-main,
+body:not(:has(.md-sidebar--primary[hidden])) .md-content {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
 
 
 
