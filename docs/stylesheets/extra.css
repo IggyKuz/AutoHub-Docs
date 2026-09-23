@@ -33,6 +33,17 @@ body:not(:has(.md-sidebar--primary[hidden])) .md-content {
   box-shadow: none !important;
 }
 
+/* Единый градиент для шапки мобильного выдвижного меню */
+.md-nav__title {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%) !important;
+  color: #ffffff !important;
+}
+
+/* Цвет иконок и кнопки закрытия в мобильном меню */
+.md-nav__title .md-nav__button {
+  color: #ffffff !important;
+}
+
 
 
 /* Оранжево-серый градиент для верхней шапки 
