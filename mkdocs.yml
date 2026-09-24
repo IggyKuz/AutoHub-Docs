@@ -87,4 +87,14 @@ nav:
 # Плагины для расширения функционала MkDocs
 plugins:
   - search      # Встроенный поиск по документации
-  - glightbox   # Плагин для интерактивного просмотра SVG-схем и картинок по клику (с зумом)
+  - glightbox:  # Интерактивный просмотр SVG и картинок
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true     # Включает зум
+      draggable: true    # Разрешает перетаскивание зазумленной схемы
+      skip_classes:
+        - skip-lightbox
