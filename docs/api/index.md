@@ -1,11 +1,11 @@
-# API
+# 10. API
 
-Описание интерфейсов системы.
+<div align="center">
 
-## Пример
+<h1 style="color: #ff9800; font-size: 2.5em; font-weight: bold; margin-top: 10px;">
+  РАЗДЕЛ НАХОДИТСЯ В РАЗРАБОТКЕ
+</h1>
 
-```http
-GET /api/v1/bookings
-```
+![В разработке](../assets/images/underConstruction.png)
 
-Возвращает список записей.
+</div>
