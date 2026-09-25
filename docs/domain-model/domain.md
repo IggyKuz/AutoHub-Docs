@@ -15,4 +15,4 @@
 
 ## Схема предметной области
 
-![Модель предметной области AutoHub](../assets/images/domain-model.svg
+![Модель предметной области AutoHub](../assets/images/domain-model.svg)
