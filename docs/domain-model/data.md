@@ -69,3 +69,7 @@
 | **Справочник** | **Справочник моделей авто** | Модель автоID | ID (Integer) | — | Да | Первичный ключ | Primary Key |
 | | | Наименование модели | String | ≤ 250 | Да | Название модели | — |
 | | | Марка автоID | ID (Integer) | — | Да | Внешний ключ на марку авто | Foreign Key (жесткая привязка) |
+
+!!! info "Оригинал словаря данных"
+    Полный и актуальный словарь данных также доступен в формате Google Таблиц:  
+    👉 [Открыть словарь данных AutoHub в Google Sheets](https://docs.google.com/spreadsheets/d/15Eh0dM4q1vORY6T7Dk6a4XFbxDQKD03u/edit?usp=sharing&ouid=116662522328359785010&rtpof=true&sd=true){ target="_blank" }
