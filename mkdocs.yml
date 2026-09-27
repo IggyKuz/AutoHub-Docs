@@ -59,18 +59,8 @@ nav:
           - '5.1. Регистрация клиента на СТО': processes/client-registration.md
           - '5.2. Заказ недостающей запчасти': processes/parts-ordering.md
       - '6. Требования к системе':
-          - '6.1. Требования к системе в целом':
-              - '6.1.1. Производительность': requirements/system/performance.md
-              - '6.1.2. Безопасность': requirements/system/security.md
-              - '6.1.3. Масштабируемость': requirements/system/scalability.md
-              - '6.1.4. Надежность': requirements/system/reliability.md
-              - '6.1.5. Совместимость': requirements/system/compatibility.md
-              - '6.1.6. Доступность': requirements/system/availability.md
-              - '6.1.7. Особенности хранения данных': requirements/system/data-storage.md
-              - '6.1.8. Поддерживаемость': requirements/system/maintainability.md
-          - '6.2. Требования к функциям':
-              - '6.2.1. UseCase диаграмма': requirements/functional/usecase-diagram.md
-              - '6.2.2. Описание UseCase (MVP)': requirements/functional/usecase-scenarios.md
+          - '6.1. Нефункциональные требования': requirements/non-functional.md
+          - '6.2. Функциональные требования': requirements/functional.md 
       - '7. Информационная модель':
           - '7.1. Модель предметной области': domain-model/domain.md
           - '7.2. Модель данных': domain-model/data.md
