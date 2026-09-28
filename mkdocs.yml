@@ -59,7 +59,7 @@ nav:
           - '4.4. Ограничения проекта': automation/constraints.md
       - '5. Описание бизнес-процессов':
           - '5.1. Регистрация клиента на СТО': processes/client-registration.md
-          - '5.2. Заказ недостающей запчасти': processes/parts-ordering.md
+          - '5.2. Заказ недостающей запчасти (Релиз 1)': processes/parts-ordering.md
       - '6. Требования к системе':
           - '6.1. Нефункциональные требования': requirements/non-functional.md
           - '6.2. Функциональные требования': requirements/functional.md 
