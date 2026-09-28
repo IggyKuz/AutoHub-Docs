@@ -38,8 +38,18 @@ extra_css:
 markdown_extensions:
   - attr_list
   - admonition
-  - pymdownx.details
+  - pymdownx.details # Раскрывающиеся спойлеры (??? note "Нажмите, чтобы открыть")
   - pymdownx.superfences
+# Вкладки с контентом (=== "Название вкладки")
+  - pymdownx.tabbed:
+      alternate_style: true # Включает современный стиль вкладок (для темы Material)
+# Дополнительные полезные расширения для оформления документации:
+  - pymdownx.inlinehilite # Подсветка кода внутри текста
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets # Использование инклюдов и фрагментов файлов
 
 nav:
   - 'Главная': index.md
