@@ -5,6 +5,7 @@ site_url: https://iggykuz.github.io/AutoHub-Docs/
 
 theme:
   name: material
+  logo: assets/logo.png
   language: ru
     
   features:
