@@ -85,7 +85,7 @@ nav:
           - 'I. Тесты MVP (Фаза 1)': tasks/testing-mvp.md
           - 'II. Тесты первого релиза (Фаза 2)': tasks/testing-rel1.md
           - 'III. Программа и методика испытаний (ПМИ)': tasks/pmi.md
-
+  - 'Об авторе': about.md
 
 # Плагины для расширения функционала MkDocs
 plugins:
