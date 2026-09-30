@@ -34,7 +34,8 @@
 3. ![Мария Красавина](assets/images/about/maria.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Мария Красавина**  
    За умелые и чрезвычайно полезные практикумы, смотреть, как она виртуозно работает, успевая при этом чётко излагать базу знаний, просто загляденье!
 
-4. ![Михаил Пономарёв и Андрей Трошин](assets/images/about/mikhail_andrey.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Михаил Пономарёв и Андрей Трошин**  
+4. ![Михаил Пономарёв](assets/images/about/mikhail.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 6px; object-fit: cover;" }![Андрей Трошин](assets/images/about/andrey.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Михаил Пономарёв и Андрей Трошин**
+ **Михаил Пономарёв и Андрей Трошин**  
    За самопожертвование своим личным временем ради нашего понимания нетривиальных областей знаний. Они постоянно задерживались вне отведённых на занятие академических часов, и методично разжёвывали любые вопросы, даже дилетантские.
 
 5. ![Ирина Гертовская](assets/images/about/irina.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Ирина Гертовская**  
