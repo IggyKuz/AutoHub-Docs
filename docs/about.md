@@ -25,23 +25,23 @@
 
 Отдельно хочу поблагодарить грамотных, харизматичных, и что самое важное, неравнодушных преподавателей курса:
 
-1. <img src="assets/images/about/pavel.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;"> **Павел Грипиняк**  
+1. ![Павел Грипиняк](assets/images/about/pavel.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Павел Грипиняк**  
    Без него работа просто бы не состоялась. Он, без преувеличения, вёл меня с моим проектом по фарватеру между критических несоответствий и непониманием отдельных моментов. Переписка с ним по своей длине, полагаю, превысила высоту стены моей комнаты, но как же продуктивно было это взаимодействие!
 
-2. <img src="assets/images/about/valery.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;"> **Валерий Львов**  
+2. ![Валерий Львов](assets/images/about/valery.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Валерий Львов**  
    Руководитель курса, настоящий харизматик и образец для подражания для всех аналитиков, кто хочет научиться бодро, ёмко и правильно формулировать свои мысли.
 
-3. <img src="assets/images/about/maria.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;"> **Мария Красавина**  
+3. ![Мария Красавина](assets/images/about/maria.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Мария Красавина**  
    За умелые и чрезвычайно полезные практикумы, смотреть, как она виртуозно работает, успевая при этом чётко излагать базу знаний, просто загляденье!
 
-4. <img src="assets/images/about/mikhail_andrey.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;"> **Михаил Пономарёв и Андрей Трошин**  
+4. ![Михаил Пономарёв и Андрей Трошин](assets/images/about/mikhail_andrey.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Михаил Пономарёв и Андрей Трошин**  
    За самопожертвование своим личным временем ради нашего понимания нетривиальных областей знаний. Они постоянно задерживались вне отведённых на занятие академических часов, и методично разжёвывали любые вопросы, даже дилетантские.
 
-5. <img src="assets/images/about/irina.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;"> **Ирина Гертовская**  
+5. ![Ирина Гертовская](assets/images/about/irina.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover;" } **Ирина Гертовская**  
    Матёрый специалист и надёжный проводник в сложный, и не всегда очевидный, мир требований. Её слоган *"Требования - не грибы, их не собирают, а выявляют"* будет со мной до конца =)
 
-6. <img src="assets/images/about/gemini.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover; background: #fff;"> **Google Gemini**  
+6. ![Google Gemini](assets/images/about/gemini.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover; background: #fff;" } **Google Gemini**  
    За помощь в узконаправленных разборах непонятых мной мест в матчасти системного анализа, и увлекательное реверс-инжиниринг путешествие в мир развёртывания сайтов на GitHub (почти более 200 коммитов, кривые поначалу деплои).
 
-7. <img src="assets/images/about/chatgpt.png" width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover; background: #fff;"> **OpenAI ChatGPT**  
+7. ![OpenAI ChatGPT](assets/images/about/chatgpt.png){ width="60" height="60" style="border-radius: 50%; vertical-align: middle; margin-right: 12px; object-fit: cover; background: #fff;" } **OpenAI ChatGPT**  
    За иллюстрации и помощь с визуальным оформлением.
