@@ -3,7 +3,7 @@
 ![Кузнецов Игорь](assets/images/about/author.jpg){ align=left width="200" style="margin-right: 20px; border-radius: 8px;" }
 
 ### Кузнецов Игорь 
-**Системный аналитик в Major Express / Автор проекта AutoHub**
+**Системный аналитик в [Major Express](https://major-express.ru/) / Автор проекта AutoHub**
 
 Приветствую всех коллег и случайных гостей!
 
