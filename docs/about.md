@@ -17,7 +17,7 @@
 
 Приятного чтения!
 
-Я в [ТГ](t.me/ig0rkuznets0v) / [ВК](https://vk.ru/igorkuznetsov)
+Я в [TG](t.me/ig0rkuznets0v) / [VK](https://vk.ru/igorkuznetsov)
 <br clear="all" />
 ---
 ## Благодарности
