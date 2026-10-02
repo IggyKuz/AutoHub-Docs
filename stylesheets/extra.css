@@ -1,0 +1,71 @@
+/* 1. Единый сплошной градиент для всей шапки и панели вкладок */
+.md-header,
+.md-tabs {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%) !important;
+}
+
+/* Убираем стандартную затемняющую подложку у вкладок */
+.md-tabs {
+  box-shadow: none !important;
+}
+
+/* 2. Кастомный градиентный фон для всей центральной области главной страницы */
+[data-md-color-scheme="slate"] .md-content,
+[data-md-color-scheme="default"] .md-content {
+  background: linear-gradient(180deg, rgba(255, 127, 80, 0.12) 0%, rgba(47, 53, 66, 0.25) 100%) !important;
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid rgba(255, 127, 80, 0.2);
+}
+
+/* Смягчаем фоны встроенных карточек и блоков на главной */
+.md-typeset div.hero-box,
+.md-typeset blockquote {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+  border-radius: 8px;
+}
+
+/* 3. Гарантированный сброс фона для ВСЕХ остальных страниц (где есть боковое меню) */
+body:not(:has(.md-sidebar--primary[hidden])) .md-main,
+body:not(:has(.md-sidebar--primary[hidden])) .md-content {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Единый градиент для шапки мобильного выдвижного меню */
+.md-nav__title {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%) !important;
+  color: #ffffff !important;
+}
+
+/* Цвет иконок и кнопки закрытия в мобильном меню */
+.md-nav__title .md-nav__button {
+  color: #ffffff !important;
+}
+
+
+
+/* Оранжево-серый градиент для верхней шапки 
+.md-header {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%) !important;
+} */
+
+/* Градиент для панели вкладок (Главная, Документация, Задачи) 
+.md-tabs {
+  background: linear-gradient(135deg, #2b2e38 0%, #e6673d 100%) !important;
+}*/
+
+/* Темный оранжево-серый блок под заголовок Главной страницы 
+.md-content .hero-box {
+  background: linear-gradient(135deg, #2f3542 0%, #ff7f50 100%);
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.md-content .hero-box h1 {
+  color: #ffffff !important;
+  margin-top: 0;
+} */
